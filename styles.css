@@ -60,11 +60,18 @@ nav ul li a {
 
 .cta-button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #DAA520;
+    padding: 15px 30px; /* Zwiększono odstępy wewnętrzne */
+    background-color: #ff9800;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 1.5em; /* Zwiększono rozmiar czcionki */
+    font-weight: bold; /* Opcjonalnie dodano pogrubienie */
+    transition: transform 0.3s ease; /* Dodano animację przy najechaniu */
+}
+
+.cta-button:hover {
+    transform: scale(1.05); /* Powiększenie przycisku przy najechaniu */
 }
 
 .hero-image img {
