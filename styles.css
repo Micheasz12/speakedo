@@ -33,15 +33,17 @@ nav ul li a {
 #hero {
     position: relative;
     display: flex;
+    flex-direction: column; /* Ustawienie układu kolumnowego */
+    justify-content: center; /* Wyśrodkowanie elementów w pionie */
     align-items: center;
-    justify-content: flex-start;
     background-color: #fff;
     height: 60vh;
     padding: 0 20px;
+    text-align: center; /* Wyśrodkowanie tekstu wewnątrz hero-content */
 }
 
 .hero-content {
-    position: absolute;
+    position: relative; /* Użyj względnego pozycjonowania, aby napisy były w odpowiednim miejscu */
     z-index: 1;
     max-width: 500px;
     left: 250px; /* Dodaj ten wiersz, aby przesunąć napisy na prawo */
