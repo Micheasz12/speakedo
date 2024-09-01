@@ -44,7 +44,7 @@ nav ul li a {
     position: absolute;
     z-index: 1;
     max-width: 500px;
-    left: 3500px; /* Dodaj ten wiersz, aby przesunąć napisy na prawo */
+    left: 500px; /* Dodaj ten wiersz, aby przesunąć napisy na prawo */
 }
 
 .hero-content h1 {
