@@ -1,44 +1,64 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#logo {
+    height: 60px;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: flex;
+    gap: 20px;
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
+    color: #000000;
+    font-weight: bold;
 }
 
-section {
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f8f8f8;
+}
+
+#hero h1 {
+    color: #d4a017; /* Złoty kolor jak w logo */
+    font-size: 2.5em;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #d4a017;
+    color: #ffffff;
+    text-decoration: none;
     border-radius: 5px;
 }
 
-footer {
+#about, #pricing {
+    padding: 60px 20px;
     text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
 }
 
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
