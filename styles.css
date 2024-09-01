@@ -86,12 +86,8 @@ nav ul li a {
     opacity: 0.4; /* Obrazek jest delikatnie przezroczysty */
 }
 
-#about, #pricing {
+#kursy {
     padding: 40px 20px;
-}
-
-#about h2, #pricing h2 {
-    margin-top: 0;
 }
 
 footer {
