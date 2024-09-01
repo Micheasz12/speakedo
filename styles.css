@@ -1,16 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
 #hero {
     position: relative;
-    height: 600px;
+    height: 100vh; /* Pełna wysokość ekranu */
+    overflow: hidden;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: flex-start;
-    color: #ffffff; /* Białe napisy na ciemnym tle */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Półprzezroczyste tło dla nagłówka */
+    z-index: 1000;
+}
+
+#logo {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
 }
 
 .hero-container {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 1;
 }
 
 .hero-image {
@@ -19,7 +59,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    z-index: -1; /* Obrazek pod treścią */
 }
 
 .hero-image img {
@@ -29,13 +69,12 @@
 }
 
 .hero-text {
-    position: absolute;
-    top: 20%;
-    left: 10%;
+    position: relative;
     max-width: 600px;
+    margin-left: 10%;
     z-index: 10;
     color: #ffffff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Lekki cień, aby tekst był czytelniejszy */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Cień dla tekstu */
 }
 
 .hero-text h1 {
@@ -57,4 +96,3 @@
     border-radius: 5px;
     margin-top: 20px;
 }
-
