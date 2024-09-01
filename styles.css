@@ -30,15 +30,44 @@ nav ul li a {
     font-weight: bold;
 }
 
-#hero {
-    text-align: center;
-    padding: 100px 20px;
-    background-color: #f8f8f8;
+#hero, #about, #pricing {
+    padding: 80px 20px;
+    text-align: left;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.text {
+    width: 50%;
+}
+
+.image {
+    width: 40%;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 #hero h1 {
     color: #d4a017; /* Złoty kolor jak w logo */
     font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about h2, #pricing h2 {
+    color: #d4a017;
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
 .cta-button {
@@ -51,15 +80,9 @@ nav ul li a {
     border-radius: 5px;
 }
 
-#about, #pricing {
-    padding: 60px 20px;
-    text-align: center;
-}
-
 footer {
     background-color: #f8f8f8;
     text-align: center;
     padding: 20px;
     font-size: 0.9em;
 }
-
