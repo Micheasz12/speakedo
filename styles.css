@@ -1,3 +1,8 @@
+.black-text {
+    color: #000000;
+}
+
+/* Reszta CSS bez zmian */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
