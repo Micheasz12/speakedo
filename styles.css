@@ -11,7 +11,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-image: url('kobietaSG.jpg');
 }
 
 #logo {
@@ -33,7 +32,7 @@ nav ul li a {
 #hero {
     text-align: center;
     padding: 100px 20px;
-    background-color: #f8f8f8;
+    background-image: url('kobietaSG.jpg');
 }
 
 #hero h1 {
