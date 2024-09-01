@@ -2,106 +2,63 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-}
-
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 header {
-    background: #35424a;
-    color: #ffffff;
-    padding: 80px 0;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
 }
 
-header h1 {
-    margin: 0;
+#logo {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f8f8f8;
+}
+
+#hero h1 {
+    color: #d4a017; /* Złoty kolor jak w logo */
     font-size: 2.5em;
 }
 
-header p {
-    font-size: 1.2em;
-}
-
-.btn-primary {
+.cta-button {
     display: inline-block;
-    background: #e8491d;
-    color: #ffffff;
+    margin-top: 20px;
     padding: 10px 20px;
+    background-color: #d4a017;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
 }
 
-#about {
-    padding: 50px 0;
+#about, #pricing {
+    padding: 60px 20px;
     text-align: center;
-}
-
-#about h2 {
-    font-size: 2em;
-    color: #333;
-}
-
-#courses {
-    padding: 50px 0;
-    background: #ffffff;
-    text-align: center;
-}
-
-#courses h2 {
-    font-size: 2em;
-    color: #333;
-}
-
-.course {
-    margin: 20px 0;
-    padding: 20px;
-    background: #f4f4f4;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-}
-
-.course img {
-    width: 150px;
-    height: auto;
-    border-radius: 10px;
-    margin-right: 20px;
-}
-
-.course-info {
-    text-align: left;
-}
-
-.course-info h3 {
-    margin: 0 0 10px 0;
-    font-size: 1.5em;
-    color: #333;
-}
-
-.course-info p {
-    margin: 0 0 10px 0;
-    font-size: 1em;
-    color: #666;
-}
-
-.btn-secondary {
-    display: inline-block;
-    background: #35424a;
-    color: #ffffff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
 }
 
 footer {
-    background: #35424a;
-    color: #ffffff;
+    background-color: #f8f8f8;
     text-align: center;
-    padding: 20px 0;
-    margin-top: 20px;
+    padding: 20px;
+    font-size: 0.9em;
 }
