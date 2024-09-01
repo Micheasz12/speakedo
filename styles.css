@@ -49,19 +49,19 @@ nav ul li a {
 .hero-content h1 {
     font-size: 3em;
     margin: 0 0 20px 0;
-    color: #000; /* Przywrócono pierwotny kolor czarny */
+    color: #DAA520;
 }
 
 .hero-content p {
     font-size: 1.2em;
-    color: #000; /* Przywrócono pierwotny kolor czarny */
+    color: #000000;
     margin: 0 0 20px 0;
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff9800; /* Przywrócono pierwotny kolor pomarańczowy */
+    background-color: #DAA520;
     color: white;
     text-decoration: none;
     border-radius: 5px;
