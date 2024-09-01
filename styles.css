@@ -32,6 +32,7 @@ nav ul li a {
 #hero {
     text-align: center;
     padding: 100px 20px;
+    background-color: #f8f8f8;
 }
 
 #hero h1 {
