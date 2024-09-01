@@ -49,19 +49,19 @@ nav ul li a {
 .hero-content h1 {
     font-size: 3em;
     margin: 0 0 20px 0;
-    color: #333;
+    color: #000; /* Przywrócono pierwotny kolor czarny */
 }
 
 .hero-content p {
     font-size: 1.2em;
-    color: #555;
+    color: #000; /* Przywrócono pierwotny kolor czarny */
     margin: 0 0 20px 0;
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #ff9800; /* Przywrócono pierwotny kolor pomarańczowy */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -75,7 +75,7 @@ nav ul li a {
     top: 0;
     left: 0;
     z-index: 0;
-    opacity: 0.4; /* Aby obrazek był nieco przezroczysty, co lepiej wyeksponuje tekst */
+    opacity: 0.4; /* Obrazek jest delikatnie przezroczysty */
 }
 
 #about, #pricing {
