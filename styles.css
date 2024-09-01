@@ -34,12 +34,12 @@ nav ul li a {
     position: relative;
     display: flex;
     flex-direction: column; /* Ustawienie układu kolumnowego */
-    justify-content: center; /* Wyśrodkowanie elementów w pionie */
+    /*justify-content: center; /* Wyśrodkowanie elementów w pionie */
     align-items: center;
     background-color: #fff;
     height: 60vh;
     padding: 0 20px;
-    text-align: center; /* Wyśrodkowanie tekstu wewnątrz hero-content */
+    /*text-align: center; /* Wyśrodkowanie tekstu wewnątrz hero-content */
 }
 
 .hero-content {
