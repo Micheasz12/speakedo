@@ -39,12 +39,6 @@ nav ul li a {
     font-size: 2.5em;
 }
 
-#about {
-    background-image: url('kobietaSG.jpg'); /* Ścieżka do obrazu tła */
-    background-size: cover; /* Dopasowanie obrazu do rozmiaru sekcji */
-    background-position: center; /* Wyśrodkowanie obrazu */
-    background-repeat: no-repeat; /* Zapobieganie powtarzaniu obrazu */
-
 .cta-button {
     display: inline-block;
     margin-top: 20px;
@@ -55,7 +49,7 @@ nav ul li a {
     border-radius: 5px;
 }
 
-#pricing {
+#about, #pricing {
     padding: 60px 20px;
     text-align: center;
 }
