@@ -90,6 +90,10 @@ nav ul li a {
     padding: 40px 20px;
 }
 
+#kursy h2 {
+    margin-top: 0;
+}
+
 footer {
     text-align: center;
     padding: 20px;
