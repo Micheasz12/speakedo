@@ -37,14 +37,14 @@ nav ul li a {
     background-color: #fff;
     height: 60vh;
     padding: 0 20px;
-    text-align: center; /* Wyśrodkowanie tekstu wewnątrz hero-content */
+    text-align: center;
 }
 
 .hero-content {
-    position: relative; /* Użyj względnego pozycjonowania, aby napisy były w odpowiednim miejscu */
+    position: relative;
     z-index: 1;
     max-width: 500px;
-    left: 150px; /* Dodaj ten wiersz, aby przesunąć napisy na prawo */
+    left: 150px;
 }
 
 .hero-content h1 {
@@ -62,18 +62,18 @@ nav ul li a {
 
 .cta-button {
     display: inline-block;
-    padding: 15px 30px; /* Zwiększono odstępy wewnętrzne */
+    padding: 15px 30px;
     background-color: #DAA520;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.5em; /* Zwiększono rozmiar czcionki */
-    font-weight: bold; /* Opcjonalnie dodano pogrubienie */
-    transition: transform 0.3s ease; /* Dodano animację przy najechaniu */
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: transform 0.3s ease;
 }
 
 .cta-button:hover {
-    transform: scale(1.05); /* Powiększenie przycisku przy najechaniu */
+    transform: scale(1.05);
 }
 
 .hero-image img {
@@ -84,9 +84,8 @@ nav ul li a {
     top: 0;
     left: 0;
     z-index: 0;
-    opacity: 0.4; /* Obrazek jest delikatnie przezroczysty */
+    opacity: 0.4;
 }
-
 
 footer {
     text-align: center;
@@ -121,6 +120,12 @@ footer {
     padding: 20px;
     text-align: center;
     width: 150px;
+    text-decoration: none; /* Usuwa podkreślenie linku */
+    color: inherit; /* Utrzymuje kolor tekstu karty */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Wyśrodkowanie zawartości w pionie */
+    justify-content: center; /* Wyśrodkowanie zawartości w poziomie */
 }
 
 .course-cards .card img {
@@ -130,7 +135,7 @@ footer {
 }
 
 .course-cards .card p {
-    font-weight: bold; /* Pogrubienie tekstu */
+    font-weight: bold;
     font-size: 1.2em;
     color: #333;
 }
@@ -144,7 +149,7 @@ footer {
     margin-right: auto;
     text-align: center;
     font-weight: 400;
-    line-height: 1.6em; /* Odstępy między wierszami */
+    line-height: 1.6em;
 }
 
 .cta-button {
@@ -157,11 +162,10 @@ footer {
     font-size: 1.2em;
     font-weight: bold;
     transition: transform 0.3s ease;
-    margin-top: 20; /* Usuń margines górny */
-    margin-bottom: 0; /* Usuń margines dolny */
+    margin-top: 20px; /* Poprawione marginesy */
+    margin-bottom: 0;
 }
 
 .cta-button:hover {
     transform: scale(1.05);
 }
-
