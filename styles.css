@@ -202,3 +202,28 @@ footer {
     color: #000;
     line-height: 1.6em;
 }
+
+.features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.feature {
+    max-width: 300px;
+    text-align: left;
+    flex-basis: 100%;
+}
+
+@media (min-width: 768px) {
+    .feature {
+        flex-basis: 45%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .feature {
+        flex-basis: 22%;
+    }
+}
