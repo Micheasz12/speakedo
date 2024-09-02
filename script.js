@@ -1,3 +1,5 @@
+console.log('Script is loaded and running');
+
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.querySelector("form");
     if (form) {
