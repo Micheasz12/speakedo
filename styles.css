@@ -246,7 +246,7 @@ footer {
 .testimonial-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 100%; /* Dostosowane do liczby opinii */
+    width: calc(100% * 3); /* Ustaw szerokość na podstawie liczby opinii */
 }
 
 .testimonial {
