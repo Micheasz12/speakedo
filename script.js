@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (currentIndex > 0) {
             currentIndex--;
         } else {
-            currentIndex = testimonials.length - 1;
+            currentIndex = testimonials.length - 1; // Ostatnia opinia
         }
         updateSlider();
     });
@@ -29,8 +29,9 @@ document.addEventListener('DOMContentLoaded', function () {
         if (currentIndex < testimonials.length - 1) {
             currentIndex++;
         } else {
-            currentIndex = 0;
+            currentIndex = 0; // Powrót do pierwszej opinii
         }
         updateSlider();
     });
 });
+
