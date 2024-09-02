@@ -104,6 +104,7 @@ footer {
     font-size: 2.5em;
     color: #333;
     margin-bottom: 30px;
+    
 }
 
 .course-cards {
@@ -125,6 +126,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-decoration: none; /* Usuwa podkreślenie linku */
+    transition: transform 0.3s ease;
 }
 
 .course-cards .card img {
