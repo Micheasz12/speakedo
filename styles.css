@@ -157,3 +157,48 @@ footer {
     line-height: 1.6em;
     text-decoration: none; /* Usuwa podkreślenie, ale tylko w przypadku, gdyby tekst był linkiem */
 }
+
+#why-speakedo {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#why-speakedo h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#why-speakedo p {
+    font-size: 1.125em;
+    color: #000;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6em;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.feature {
+    max-width: 300px;
+    text-align: left;
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #000;
+    line-height: 1.6em;
+}
