@@ -130,6 +130,7 @@ footer {
 }
 
 .course-cards .card p {
+    font-weight: bold; /* Pogrubienie tekstu */
     font-size: 1.2em;
     color: #333;
 }
