@@ -124,12 +124,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-/* Usunięcie podkreślenia dla linków */
-.course-cards .card a {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none; /* Usuwa podkreślenie linku */
 }
 
 .course-cards .card img {
@@ -144,9 +139,10 @@ footer {
     color: #333;
 }
 
-/* Specjalne style dla karty angielskiego */
+/* Ustalamy linki na .card */
 .course-cards .card a {
-    text-decoration: none; /* Usuwa podkreślenie z linku */
+    text-decoration: none; /* Usuwa podkreślenie linku */
+    color: inherit; /* Utrzymuje kolor tekstu karty */
 }
 
 .course-description {
@@ -159,24 +155,5 @@ footer {
     text-align: center;
     font-weight: 400;
     line-height: 1.6em;
-    /* Usuwanie podkreślenia linku w opisie */
-    text-decoration: none;
-}
-
-.cta-button {
-    display: inline-block;
-    padding: 15px 30px;
-    background-color: #DAA520;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2em;
-    font-weight: bold;
-    transition: transform 0.3s ease;
-    margin-top: 20px;
-    margin-bottom: 0;
-}
-
-.cta-button:hover {
-    transform: scale(1.05);
+    text-decoration: none; /* Usuwa podkreślenie, ale tylko w przypadku, gdyby tekst był linkiem */
 }
