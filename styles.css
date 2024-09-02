@@ -247,10 +247,11 @@ footer {
 .testimonial-container {
     display: flex;
     transition: transform 0.5s ease;
+    width: 300%; /* Dostosowane do liczby opinii */
 }
 
 .testimonial {
-    min-width: 100%;
+    width: 100%; /* Ważne: musi być 100% szerokości kontenera */
     box-sizing: border-box;
     padding: 20px;
     background: linear-gradient(135deg, #005f99, #007acc);
