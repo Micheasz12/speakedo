@@ -136,12 +136,13 @@ footer {
 
 .course-description {
     font-size: 1em;
-    color: #555;
+    color: #000;
     margin-bottom: 40px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-weight: bold;
 }
 
 .cta-button {
