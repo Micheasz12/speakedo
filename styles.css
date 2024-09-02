@@ -256,7 +256,7 @@ footer {
     background: linear-gradient(135deg, #005f99, #007acc);
     color: white;
     border-radius: 15px;
-    margin: 0 10px;
+    margin: 0;
 }
 
 .testimonial p {
