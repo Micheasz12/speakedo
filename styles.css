@@ -156,6 +156,7 @@ footer {
     font-size: 1.2em;
     font-weight: bold;
     transition: transform 0.3s ease;
+    margin-top: 10px; /* Dodanie odstępu powyżej przycisku */
 }
 
 .cta-button:hover {
