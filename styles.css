@@ -120,12 +120,16 @@ footer {
     padding: 20px;
     text-align: center;
     width: 150px;
-    text-decoration: none; /* Usuwa podkreślenie linku */
-    color: inherit; /* Utrzymuje kolor tekstu karty */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Wyśrodkowanie zawartości w pionie */
-    justify-content: center; /* Wyśrodkowanie zawartości w poziomie */
+    align-items: center;
+    justify-content: center;
+}
+
+/* Usunięcie podkreślenia dla linków */
+.course-cards .card a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .course-cards .card img {
@@ -140,6 +144,11 @@ footer {
     color: #333;
 }
 
+/* Specjalne style dla karty angielskiego */
+.course-cards .card a {
+    text-decoration: none; /* Usuwa podkreślenie z linku */
+}
+
 .course-description {
     font-size: 1.125em;
     color: #000;
@@ -150,7 +159,8 @@ footer {
     text-align: center;
     font-weight: 400;
     line-height: 1.6em;
-    text-decoration: none; /* Usuwa podkreślenie linku */
+    /* Usuwanie podkreślenia linku w opisie */
+    text-decoration: none;
 }
 
 .cta-button {
@@ -163,7 +173,7 @@ footer {
     font-size: 1.2em;
     font-weight: bold;
     transition: transform 0.3s ease;
-    margin-top: 20px; /* Poprawione marginesy */
+    margin-top: 20px;
     margin-bottom: 0;
 }
 
