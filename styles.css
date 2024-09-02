@@ -246,10 +246,11 @@ footer {
 .testimonial-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: calc(100% * 3); /* Ustaw szerokość na podstawie liczby opinii */
+    width: 100%; /* Szerokość kontenera dopasowana do jego rodzica */
 }
 
 .testimonial {
+    flex: 0 0 100%; /* Każdy testimonial zajmuje 100% szerokości kontenera */
     width: 100%; /* Każda opinia zajmuje 100% szerokości kontenera */
     box-sizing: border-box;
     padding: 20px;
