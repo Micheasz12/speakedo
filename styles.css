@@ -254,7 +254,7 @@ footer {
     width: 100%; /* Każda opinia zajmuje 100% szerokości kontenera */
     box-sizing: border-box;
     padding: 20px;
-    background: linear-gradient(135deg, #005f99, #007acc);
+    background: #0071BC;
     color: white;
     border-radius: 15px;
     margin: 0;
