@@ -246,12 +246,12 @@ footer {
 
 .testimonial-container {
     display: flex;
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease-in-out;
     width: 300%; /* Dostosowane do liczby opinii */
 }
 
 .testimonial {
-    width: 100%; /* Ważne: musi być 100% szerokości kontenera */
+    width: 100%; /* Każda opinia zajmuje 100% szerokości kontenera */
     box-sizing: border-box;
     padding: 20px;
     background: linear-gradient(135deg, #005f99, #007acc);
@@ -278,11 +278,11 @@ footer {
 }
 
 .prev {
-    left: -40px;
+    left: 0;
 }
 
 .next {
-    right: -40px;
+    right: 0;
 }
 
 @media (max-width: 768px) {
@@ -293,3 +293,4 @@ footer {
         display: none;
     }
 }
+
