@@ -18,20 +18,46 @@
         </nav>
     </header>
     
-<form action="https://formspree.io/f/xblrbdbr" method="POST">
-    <label for="name">Imię i nazwisko *</label>
-    <input type="text" id="name" name="name" required>
-    
-    <label for="email">E-Mail *</label>
-    <input type="email" id="email" name="email" required>
-    
-    <label for="phone">Telefon *</label>
-    <input type="text" id="phone" name="phone" required>
-    
-    <label for="message">Miejsce na komentarz</label>
-    <textarea id="message" name="message"></textarea>
-    
-    <button type="submit">Wyślij</button>
-</form>
+</body>
+
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Szkoła Językowa Edoo</h2>
+            <p>Uczymy języków online od 2007 roku.</p>
+            <p><strong>Telefon:</strong><br>(+48) 12 312 5326</p>
+            <p><strong>Edoo sp. z o.o.</strong><br> Michałowskiego 11/8<br> 31-126 Kraków, Polska</p>
+        </div>
+
+        <div class="contact-form">
+            <form action="https://formspree.io/f/xblrbdbr" method="POST">
+                <label for="name">Imię i nazwisko *</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-Mail *</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Telefon *</label>
+                <input type="text" id="phone" name="phone" required>
+                
+                <label for="subject">Temat</label>
+                <input type="text" id="subject" name="subject">
+                
+                <label for="message">Miejsce na komentarz</label>
+                <textarea id="message" name="message"></textarea>
+                
+                <div class="checkbox-container">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">Potwierdzam, że zapoznałem/am się i akceptuję regulamin strony internetowej oraz że zapoznałem/am się z polityką prywatności strony internetowej.</label>
+                </div>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="marketing-consent" name="marketing-consent">
+                    <label for="marketing-consent">Zgadzam się na przetwarzanie moich danych osobowych w celu przesyłania informacji marketingowych.</label>
+                </div>
+                
+                <button type="submit">Wyślij</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
