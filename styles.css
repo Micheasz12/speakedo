@@ -357,3 +357,10 @@ footer {
     height: 30px;
 }
 
+#angielski-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+    min-height: 300px; /* Można ustawić minimalną wysokość sekcji */
+}
+
