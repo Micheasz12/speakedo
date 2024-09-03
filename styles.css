@@ -364,3 +364,78 @@ footer {
     min-height: 300px; /* Można ustawić minimalną wysokość sekcji */
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#pricing-plans {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.plan {
+    background-color: #e6f2ff;
+    border: 2px solid #0071BC;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.box {
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plan-title h3 {
+    font-size: 1.5em;
+    color: #0071BC;
+}
+
+.plan-price .price {
+    font-size: 2em;
+    color: #333;
+}
+
+.plan-price p {
+    margin-top: 0;
+    color: #666;
+}
+
+.plan-button button {
+    background-color: #FF6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.plan-button button:hover {
+    background-color: #e55b00;
+}
+
+.plan-features ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    font-size: 0.9em;
+}
+
+.plan-features ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.plan-features ul li:last-child {
+    border-bottom: none;
+}
