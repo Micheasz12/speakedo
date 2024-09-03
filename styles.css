@@ -379,8 +379,8 @@ body {
 }
 
 .plan {
-    background-color: #e6f2ff;
-    border: 2px solid #0071BC;
+    background-color: #DAA520;
+    border: 2px solid #F1F1F1;
     border-radius: 10px;
     width: 300px;
     text-align: center;
@@ -389,7 +389,7 @@ body {
 .box {
     padding: 20px;
     margin: 10px;
-    background-color: #DAA520;
+    background-color: #333;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
