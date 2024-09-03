@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
 
     // Create the email content
-    $to = "your-email@example.com";  // Replace with your email address
+    $to = "speakedo.contact@gmail.com";  // Replace with your email address
     $email_subject = "Nowa wiadomość z formularza kontaktowego: $subject";
     $email_body = "Otrzymałeś nową wiadomość.\n\n".
                   "Imię i nazwisko: $name\n".
