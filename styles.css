@@ -356,7 +356,7 @@ footer {
 /* Usuwamy podkreślenie z linków w stopce */
 .footer-column ul li a {
     text-decoration: none; /* Usuwa podkreślenie linku */
-    color: inherit; /* Utrzymuje kolor tekstu tak, jak w liście */
+    color: #fff; /* Utrzymuje kolor tekstu tak, jak w liście */
 }
 
 .footer-social {
