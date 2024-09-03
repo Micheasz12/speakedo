@@ -537,3 +537,10 @@ body {
 .checkbox-container input {
     margin-top: 2px;
 }
+
+.section-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px; /* Odstęp między tytułem a boxami */
+}
+
