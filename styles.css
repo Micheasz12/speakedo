@@ -392,7 +392,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 50px 20px;
-    background-color: #ffffff;
+    background-color: #F0F0F0;
 }
 
 .plan {
@@ -406,7 +406,7 @@ body {
 .box {
     padding: 20px;
     margin: 10px;
-    background-color: #ffffff;
+    background-color: #E9B623;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
