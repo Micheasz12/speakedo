@@ -1,33 +1,15 @@
-<form action="send_email.php" method="POST">
-    <div>
-        <label for="name">Imię i nazwisko *</label>
-        <input type="text" id="name" name="name" required>
-    </div>
-    <div>
-        <label for="email">E-Mail *</label>
-        <input type="email" id="email" name="email" required>
-    </div>
-    <div>
-        <label for="phone">Telefon *</label>
-        <input type="text" id="phone" name="phone" required>
-    </div>
-    <div>
-        <label for="subject">Temat</label>
-        <input type="text" id="subject" name="subject">
-    </div>
-    <div>
-        <label for="message">Miejsce na komentarz</label>
-        <textarea id="message" name="message"></textarea>
-    </div>
-    <div>
-        <input type="checkbox" id="terms" name="terms" required>
-        <label for="terms">* Potwierdzam, że zapoznałem/am się i akceptuję regulamin strony internetowej oraz że zapoznałem/am się z polityką prywatności strony internetowej.</label>
-    </div>
-    <div>
-        <input type="checkbox" id="consent" name="consent">
-        <label for="consent">Zgadzam się na przetwarzanie moich danych osobowych (imię i nazwisko, adres e-mail) przez administratora (spółka Edoo Sp. z o.o. z siedzibą w Krakowie) w celu przesyłania informacji marketingowych.</label>
-    </div>
-    <div>
-        <button type="submit">Wyślij</button>
-    </div>
+<form action="https://formspree.io/f/xblrbdbr" method="POST">
+    <label for="name">Imię i nazwisko *</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">E-Mail *</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="phone">Telefon *</label>
+    <input type="text" id="phone" name="phone" required>
+    
+    <label for="message">Miejsce na komentarz</label>
+    <textarea id="message" name="message"></textarea>
+    
+    <button type="submit">Wyślij</button>
 </form>
