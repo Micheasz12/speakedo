@@ -541,6 +541,7 @@ body {
 .section-title {
     text-align: center;
     font-weight: bold;
-    margin-bottom: 20px; /* Odstęp między tytułem a boxami */
+    margin-top: 40px;            /* Przestrzeń nad nagłówkiem */
+    margin-bottom: 30px;         /* Przestrzeń pod nagłówkiem */
 }
 
