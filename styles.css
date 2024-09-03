@@ -410,7 +410,7 @@ body {
 }
 
 .plan-button button {
-    background-color: #FF6600;
+    background-color: #DAA520;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -420,7 +420,7 @@ body {
 }
 
 .plan-button button:hover {
-    background-color: #e55b00;
+    background-color: #E9B623;
 }
 
 .plan-features ul {
