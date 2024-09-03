@@ -129,6 +129,20 @@ footer {
     transition: transform 0.3s ease;
 }
 
+/* Kluczowe klatki animacji */
+@keyframes breathing {
+    0% {
+        transform: scale(1); /* Początkowy rozmiar */
+    }
+    50% {
+        transform: scale(1.1); /* Skalowanie przycisku do 110% */
+    }
+    100% {
+        transform: scale(1); /* Powrót do początkowego rozmiaru */
+    }
+}
+}
+
 .course-cards .card img {
     width: 150px;
     height: auto;
