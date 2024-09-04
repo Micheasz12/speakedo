@@ -1,3 +1,4 @@
+/* Podstawowe ustawienia dla wszystkich ekranów */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -111,6 +112,7 @@ footer {
     justify-content: center;
     gap: 20px;
     margin-bottom: 30px;
+    flex-wrap: wrap; /* Dodano flex-wrap */
 }
 
 .course-cards .card {
@@ -124,18 +126,18 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-decoration: none; /* Usuwa podkreślenie linku */
+    text-decoration: none;
     transition: transform 0.3s ease;
-    animation: breathing 2s infinite; /* Animacja breathing */
+    animation: breathing 2s infinite;
 }
 
 /* Kluczowe klatki animacji */
 @keyframes breathing {
     0%, 100% {
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Normalny cień */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
     50% {
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Powiększony cień */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
 }
 
@@ -151,10 +153,9 @@ footer {
     color: #333;
 }
 
-/* Ustalamy linki na .card */
 .course-cards .card a {
-    text-decoration: none; /* Usuwa podkreślenie linku */
-    color: inherit; /* Utrzymuje kolor tekstu karty */
+    text-decoration: none;
+    color: inherit;
 }
 
 .course-description {
@@ -167,7 +168,7 @@ footer {
     text-align: center;
     font-weight: 400;
     line-height: 1.6em;
-    text-decoration: none; /* Usuwa podkreślenie, ale tylko w przypadku, gdyby tekst był linkiem */
+    text-decoration: none;
 }
 
 #why-speakedo {
@@ -194,6 +195,7 @@ footer {
 
 .features-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
 }
@@ -201,6 +203,7 @@ footer {
 .feature {
     max-width: 300px;
     text-align: left;
+    flex-basis: 100%;
 }
 
 .feature h3 {
@@ -215,19 +218,6 @@ footer {
     color: #000;
     line-height: 1.6em;
     text-align: center;
-}
-
-.features-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
-}
-
-.feature {
-    max-width: 300px;
-    text-align: left;
-    flex-basis: 100%;
 }
 
 @media (min-width: 768px) {
@@ -245,9 +235,8 @@ footer {
 #testimonials {
     text-align: center;
     padding: 50px;
-    font-weight: bold; 
+    font-weight: bold;
     font-size: 1.2em;
-
 }
 
 .testimonial-slider {
@@ -260,12 +249,12 @@ footer {
 .testimonial-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 100%; /* Szerokość kontenera dopasowana do jego rodzica */
+    width: 100%;
 }
 
 .testimonial {
-    flex: 0 0 100%; /* Każdy testimonial zajmuje 100% szerokości kontenera */
-    width: 100%; /* Każda opinia zajmuje 100% szerokości kontenera */
+    flex: 0 0 100%;
+    width: 100%;
     box-sizing: border-box;
     padding: 20px;
     background: #DAA520;
@@ -289,7 +278,7 @@ footer {
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
-    z-index: 1; /* Ustaw, aby przyciski były nad sliderem */
+    z-index: 1;
 }
 
 .prev {
@@ -353,10 +342,9 @@ footer {
     margin-bottom: 5px;
 }
 
-/* Usuwamy podkreślenie z linków w stopce */
 .footer-column ul li a {
-    text-decoration: none; /* Usuwa podkreślenie linku */
-    color: #fff; /* Utrzymuje kolor tekstu tak, jak w liście */
+    text-decoration: none;
+    color: #fff;
 }
 
 .footer-social {
@@ -378,14 +366,7 @@ footer {
     padding: 50px;
     background-color: #F0F0F0;
     text-align: center;
-    min-height: 300px; /* Można ustawić minimalną wysokość sekcji */
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+    min-height: 300px;
 }
 
 #pricing-plans {
@@ -393,52 +374,62 @@ body {
     justify-content: space-around;
     padding: 50px 20px;
     background-color: #F0F0F0;
+    flex-wrap: wrap; /* Dodano flex-wrap */
+    gap: 20px; /* Dodano odstępy między planami */
 }
 
 .plan {
     background-color: #CCCCCC;
     border: 2px solid #000;
     border-radius: 10px;
-    width: 300px;
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
     text-align: center;
 }
 
-.box {
-    padding: 20px;
-    margin: 10px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.plan h3 {
+    font-size: 1.5em;
+    color: #000;
+    margin-bottom: 10px;
 }
 
-.plan-title h3 {
-    font-size: 1.5em;
+.plan p {
+    font-size: 1.2em;
     color: #000;
 }
 
-.plan-price .price {
-    font-size: 2em;
-    color: #333;
+.plan span {
+    font-weight: bold;
 }
 
-.plan-price p {
-    margin-top: 0;
-    color: #666;
-}
-
-.plan-button button {
+.plan button {
     background-color: #DAA520;
     color: white;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 1.2em;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.plan-button button:hover {
-    background-color: #E9B623;
+.plan button:hover {
+    background-color: #FFD700;
 }
+
+@media (max-width: 768px) {
+    #pricing-plans {
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
 
 .plan-features ul {
     list-style-type: none;
