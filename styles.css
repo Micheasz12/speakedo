@@ -401,6 +401,7 @@ body {
     border-radius: 10px;
     width: 300px;
     text-align: center;
+    margin-bottom: 30px; /* Add this line to create space between plans */
 }
 
 .box {
