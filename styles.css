@@ -556,6 +556,6 @@ body {
 .section-title {
     text-align: center;
     font-weight: bold;
-    margin-top: 40px;            /* Przestrzeń nad nagłówkiem */
+    margin-top: 30px;            /* Przestrzeń nad nagłówkiem */
     margin-bottom: 40px;         /* Przestrzeń pod nagłówkiem */
 }
