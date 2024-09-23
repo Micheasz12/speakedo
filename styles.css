@@ -390,13 +390,13 @@ body {
 
 #pricing-plans {
     display: flex;
-    justify-content: center; /* Wyśrodkowanie planów w poziomie */
-    align-items: center; /* Wyśrodkowanie w pionie */
+    justify-content: center;
+    align-items: center;
     padding: 50px 20px;
     background-color: #F0F0F0;
-    min-height: 100vh; /* Sekcja zajmuje co najmniej 100% wysokości ekranu */
-    flex-wrap: wrap; /* Pozwala na przeniesienie do nowego wiersza na mniejszych ekranach */
-    gap: 40px; /* Dodanie odstępu między planami */
+    min-height: 100vh;
+    flex-wrap: wrap;
+    gap: 20px; /* Odstęp między planami */
 }
 
 .plan {
@@ -406,12 +406,12 @@ body {
     width: 300px;
     text-align: center;
     padding: 20px;
-    margin: 20px 40px; /* Zwiększenie odstępu między planami */
+    margin: 20px;
 }
 
 .box {
     padding: 20px;
-    margin: 10px;
+    margin: 20px 0; /* Zwiększenie odstępu między sekcjami w obrębie planu */
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -432,6 +432,10 @@ body {
     color: #666;
 }
 
+.plan-button {
+    margin-top: 20px; /* Dodanie marginesu powyżej przycisku */
+}
+
 .plan-button button {
     background-color: #DAA520;
     color: white;
@@ -444,6 +448,10 @@ body {
 
 .plan-button button:hover {
     background-color: #E9B623;
+}
+
+.plan-features {
+    margin-top: 20px; /* Dodanie marginesu powyżej listy funkcji */
 }
 
 .plan-features ul {
@@ -465,15 +473,16 @@ body {
 
 @media (max-width: 768px) {
     #pricing-plans {
-        flex-direction: column; /* Plany w kolumnie na mniejszych ekranach */
+        flex-direction: column;
         align-items: center;
-        gap: 20px; /* Zmniejszenie odstępów między planami na mniejszych ekranach */
+        gap: 20px;
     }
 
     .plan {
-        width: 90%; /* Szerokość planów dostosowana do urządzeń mobilnych */
+        width: 90%;
     }
 }
+
 
 .contact-container {
     max-width: 1000px;
