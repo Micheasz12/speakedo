@@ -390,9 +390,12 @@ body {
 
 #pricing-plans {
     display: flex;
-    justify-content: space-around;
+    justify-content: center; /* Wyśrodkowanie planów w poziomie */
+    align-items: center; /* Wyśrodkowanie w pionie */
     padding: 50px 20px;
     background-color: #F0F0F0;
+    min-height: 100vh; /* Zapewnienie, że sekcja zajmuje co najmniej 100% wysokości ekranu */
+    flex-wrap: wrap; /* Pozwala na lepsze dopasowanie przy mniejszych ekranach */
 }
 
 .plan {
@@ -401,7 +404,7 @@ body {
     border-radius: 10px;
     width: 300px;
     text-align: center;
-    margin-bottom: 30px; /* Add this line to create space between plans */
+    margin: 20px; /* Dodanie marginesów dookoła każdego planu */
 }
 
 .box {
@@ -457,6 +460,18 @@ body {
 .plan-features ul li:last-child {
     border-bottom: none;
 }
+
+@media (max-width: 768px) {
+    #pricing-plans {
+        flex-direction: column; /* Plany w kolumnie na małych ekranach */
+        align-items: center;
+    }
+
+    .plan {
+        width: 90%; /* Szerokość planów dostosowana do urządzeń mobilnych */
+    }
+}
+
 
 .contact-container {
     max-width: 1000px;
