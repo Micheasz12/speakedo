@@ -218,9 +218,8 @@ footer {
 }
 
 .features-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolumny */
     gap: 50px;
 }
 
