@@ -1,3 +1,12 @@
+Oto pełny kod CSS, który możesz skopiować i wkleić do swojego projektu:
+
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -129,7 +138,6 @@ footer {
     animation: breathing 2s infinite; /* Animacja breathing */
 }
 
-/* Kluczowe klatki animacji */
 @keyframes breathing {
     0%, 100% {
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Normalny cień */
@@ -151,9 +159,8 @@ footer {
     color: #333;
 }
 
-/* Ustalamy linki na .card */
 .course-cards .card a {
-    text-decoration: none; /* Usuwa podkreślenie linku */
+    text-decoration: none;
     color: inherit; /* Utrzymuje kolor tekstu karty */
 }
 
@@ -167,7 +174,6 @@ footer {
     text-align: center;
     font-weight: 400;
     line-height: 1.6em;
-    text-decoration: none; /* Usuwa podkreślenie, ale tylko w przypadku, gdyby tekst był linkiem */
 }
 
 #why-speakedo {
@@ -194,8 +200,8 @@ footer {
 
 .features-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 kolumny */
-    gap: 20px; /* odstęp między elementami */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .feature {
@@ -223,7 +229,6 @@ footer {
     padding: 50px;
     font-weight: bold; 
     font-size: 1.2em;
-
 }
 
 .testimonial-slider {
@@ -265,7 +270,7 @@ footer {
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
-    z-index: 1; /* Ustaw, aby przyciski były nad sliderem */
+    z-index: 1;
 }
 
 .prev {
@@ -329,7 +334,6 @@ footer {
     margin-bottom: 5px;
 }
 
-/* Usuwamy podkreślenie z linków w stopce */
 .footer-column ul li a {
     text-decoration: none; /* Usuwa podkreślenie linku */
     color: #fff; /* Utrzymuje kolor tekstu tak, jak w liście */
@@ -354,184 +358,13 @@ footer {
     padding: 50px;
     background-color: #F0F0F0;
     text-align: center;
-    min-height: 300px; /* Można ustawić minimalną wysokość sekcji */
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+    min-height: 300px;
 }
 
 #pricing-plans {
     display: flex;
-    justify-content: space-around; /* Równomierne rozmieszczenie planów z równymi odstępami */
-    align-items: center; /* Wyśrodkowanie w pionie */
+    justify-content: space-around;
+    align-items: center;
     padding: 50px 20px;
     background-color: #F0F0F0;
-    min-height: 100vh; /* Zapewnienie, że sekcja zajmuje co najmniej 100% wysokości ekranu */
-    flex-wrap: wrap; /* Pozwala na lepsze dopasowanie przy mniejszych ekranach */
-    gap: 30px; /* Ustawienie średniego odstępu między planami */
-}
-
-.plan {
-    background-color: #CCCCCC;
-    border: 2px solid #000;
-    border-radius: 10px;
-    width: 300px;
-    text-align: center;
-}
-
-.box {
-    padding: 20px;
-    margin: 10px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.plan-title h3 {
-    font-size: 1.5em;
-    color: #000;
-}
-
-.plan-price .price {
-    font-size: 2em;
-    color: #333;
-}
-
-.plan-price p {
-    margin-top: 0;
-    color: #666;
-}
-
-.plan-button button {
-    background-color: #DAA520;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-.plan-button button:hover {
-    background-color: #E9B623;
-}
-
-.plan-features ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    color: #333;
-    font-size: 0.9em;
-}
-
-.plan-features ul li {
-    padding: 10px 0;
-    border-bottom: 1px solid #ccc;
-}
-
-.plan-features ul li:last-child {
-    border-bottom: none;
-}
-
-@media (max-width: 768px) {
-    #pricing-plans {
-        flex-direction: column; /* Plany w kolumnie na małych ekranach */
-        align-items: center;
-    }
-
-    .plan {
-        width: 90%; /* Szerokość planów dostosowana do urządzeń mobilnych */
-    }
-}
-
-.contact-container {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    display: flex;
-    gap: 40px;
-    justify-content: space-between;
-}
-
-.contact-info {
-    flex: 1;
-    color: #333;
-}
-
-.contact-info h2 {
-    color: #DAA520;
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-.contact-info p {
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-.contact-form {
-    flex: 1;
-}
-
-.contact-form form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.contact-form label {
-    font-weight: 500;
-}
-
-.contact-form input,
-.contact-form textarea {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-.contact-form textarea {
-    min-height: 100px;
-    resize: vertical;
-}
-
-.contact-form button {
-    padding: 12px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #DAA520;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.contact-form button:hover {
-    background-color: #145a86;
-}
-
-.checkbox-container {
-    display: flex;
-    align-items: flex-start;
-    gap: 10px;
-    font-size: 14px;
-}
-
-.checkbox-container input {
-    margin-top: 2px;
-}
-
-.section-title {
-    text-align: center;
-    font-weight: bold;
-    margin-top: 30px;            /* Przestrzeń nad nagłówkiem */
-    margin-bottom: 40px;         /* Przestrzeń pod nagłówkiem */
-}
+    min-height
