@@ -196,11 +196,12 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 kolumny */
     gap: 50px;
+    text-align: center;
 }
 
 .feature {
     max-width: 300px;
-    text-align: left;
+    text-align: center;
 }
 
 .feature h3 {
@@ -220,12 +221,13 @@ footer {
 .features-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 kolumny */
+    text-align: center;
     gap: 50px;
 }
 
 .feature {
     max-width: 300px;
-    text-align: left;
+    text-align: center;
     flex-basis: 100%;
 }
 
